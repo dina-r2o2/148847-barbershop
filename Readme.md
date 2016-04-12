@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Дина Донцова](https://up.htmlacademy.ru/htmlcss/13/user/148847).
+* Наставник: [Лиза Позднякова] (https://up.htmlacademy.ru/htmlcss/13/user/5608).
 
 ---
 
