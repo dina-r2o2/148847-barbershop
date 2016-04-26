@@ -21,3 +21,149 @@ h2 {
     font-family: "PTSans", sans-serif;
     color: black;
 }
+
+html, body {
+    min-width: 1200px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    background: #000000 url(../img/barbershop-item.jpg) no-repeat 50% 0;
+    background-size: 1200 auto; */
+    
+}
+.main-header {
+    min-height: 70px;
+    margin-bottom: 60px;
+    background-color: rgba(344, 532, 123, 0.2)
+}
+.container{
+    width: 940px;
+    min-height: 70px;
+    margin: 0 auto;
+    padding: 0 10px;
+    outline: 1px solid blue;
+    background-color: rgba(344, 532, 123, 0.2)
+}
+
+.logo {
+    width: 140px;
+    min-height: 70px;
+    float:  left;
+    margin-right: 10px;
+    outline: 1px solid red;
+}
+
+.main-navigation {
+    width:780px;
+    float: left;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.user-block {
+    width:140px;
+    float: right;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.clearfix:after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.main-footer {
+    margin-top: 65px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    min-height: 90px;
+    float: left;
+    width: 320px;
+    outline: 1px solid red;
+    margin-right: 60px;
+    
+}
+.footer-social {
+    min-height: 90px;
+    float: left;
+    width: 180px;
+    outline: 1px solid red;
+}
+.footer-copyright{
+    min-height: 90px;
+    float: right;
+    width: 180px;
+    outline: 1px solid red;
+}
+
+/* for barbershop-shop */
+
+.info-breadcrumbs {
+    width: 940px;
+    height: 65px;
+    margin-bottom: 60px;
+    outline: 1px solid red;
+}
+.selection {
+    width: 220px;
+    min-height: 593px;
+    float: left;
+    margin-right: 20px;
+    outline: 1px solid red;
+}
+
+.products {
+    width: 700px;
+    min-height: 593px;
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 45px;
+    outline: 1px solid red;
+}
+
+.product-name {
+    display: inline-block;
+    width: 220px;
+    min-height: 287px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 0px;
+    outline: 1px solid red;
+    text-align: center;
+    vertical-align: top;
+}
+.product-name:nth-child(3), .product-name:nth-child(6) {
+    margin-right: 0;
+}
+.product-name:nth-child(4), 
+.product-name:nth-child(5), 
+.product-name:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.slider {
+    width: 220px;
+    height: 43px;
+    margin-left: 240px;
+    float: left;
+    outline: 1px solid red;
+    background-color: rgba(34, 61, 78, 0.2)
+}
+
+
+
+/* for barbershop-item */
+
+.column {
+    width: 460px;
+    min-height: 670px;
+    float: left;
+    outline: 1px solid red;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
