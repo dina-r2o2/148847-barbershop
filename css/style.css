@@ -29,9 +29,9 @@ html, body {
     padding: 0;
 }
 
-/*body {
-    background: #000000 url(../img/barbershop-item.jpg) no-repeat 50% 0;
-    background-size: 1200 auto; */
+body {
+    background: #000000 url(../img/barbershop-shop.jpg) no-repeat 50% 0;
+    background-size: 1200 auto; 
     
 }
 .main-header {
@@ -56,7 +56,7 @@ html, body {
     outline: 1px solid red;
 }
 
-.main-navigation {
+.main-navigation-index {
     width:780px;
     float: left;
     min-height: 70px;
@@ -103,11 +103,27 @@ html, body {
 
 /* for barbershop-shop */
 
+.main-navigation {
+    width:620px;
+    float: left;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.main-navigation li {
+    display: inline;
+}
+
 .info-breadcrumbs {
     width: 940px;
-    height: 65px;
+    min-height: 65px;
     margin-bottom: 60px;
     outline: 1px solid red;
+}
+
+.info-breadcrumbs li {
+     display: inline;
+}
+
 }
 .selection {
     width: 220px;
@@ -146,7 +162,7 @@ html, body {
     margin-bottom: 0;
 }
 
-.slider {
+.switch-pages {
     width: 220px;
     height: 43px;
     margin-left: 240px;
@@ -155,7 +171,9 @@ html, body {
     background-color: rgba(34, 61, 78, 0.2)
 }
 
-
+.switch-pages li {
+    display: inline;
+}
 
 /* for barbershop-item */
 
@@ -166,4 +184,9 @@ html, body {
     outline: 1px solid red;
     margin-right: 10px;
     margin-bottom: 50px;
+}
+
+.description-product span:nth-child(2) {
+    display: inline-block;
+    margin-left: 180px;
 }
